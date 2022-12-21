@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Capturas del juego</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="icon" type="image/jpeg" href="/img/logopagina.jpg"/>
+    <link rel="icon" type="image/jpeg" href="/Imgs/logopagina.jpg"/>
 
 </head>
 <body>
@@ -33,24 +33,88 @@
 
 
 
-    <img src="/img/menu katana zero.jpg" class="img-fluid" alt="..." width="1300rem">
+    <img src="/Imgs/menu katana zero.jpg" class="img-fluid" alt="..." width="1300rem">
 
-    <div class="card" style="width: 60rem;">
-        <img src="/img/captura katana zero 1.jpg" class="card-img-top" alt="...">
+    <div class="card" style="width: auto; margin: auto auto">
+        <img src="/Imgs/captura katana zero 1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Psiquiatrico</h5>
         </div>
       </div>
-      <div class="card" style="width: 60rem;">
-        <img src="/img/cap2.jpg" class="card-img-top" alt="...">
+      <div class="card" style="width: auto; margin: auto auto">
+        <img src="/Imgs/cap2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Discoteca</h5>
-          <div class="card" style="width: 60rem;">
-            <img src="/img/fondo terraza.png" class="card-img-top" alt="...">
+          <div class="card" style="width: auto; margin: auto auto">
+            <img src="/Imgs/fondo terraza.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Terraza</h5>
+<!--Carrousel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/imgs/cap4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>DJ Electrohead</h5>
+        <p>Nos da información importante.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/cap5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Niveles</h5>
+        <p>Vas desbloqueando los niveles a medida que avanzas, al final puedes elegir desde qué nivel jugar.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/cap3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Enemigos básicos</h5>
+        <p>Tienen diálogos interesantes, pero nada que nos incumba o nos importe.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <!--popup-->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Pulsa para un dato curioso :D 
+</button>
 
-<link rel="stylesheet" href="/js/bootstrap.js">
-<link rel="stylesheet" href="/js/bootstrap.bundle.js">
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Dato curioso</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        La banda sonora es synthwave y fue compuesta por LudoWic y Bill Kiley.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Que buen gusto musical ;)</button>
+      </div>
+    </div>
+  </div>
+</div>
+</h6>
+
+
+<script src="/js/bootstrap.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
 </body>
 </html>
